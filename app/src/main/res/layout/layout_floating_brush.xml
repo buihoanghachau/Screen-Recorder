@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/floating_brush_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imgCamera" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_camera_brush" android:tint="#ffffffff" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@+id/imgEraser" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_eraser_brush" android:tint="#ffffffff" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@+id/imgUndo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_undo_brush" android:tint="#ffffffff" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@+id/imgPaint" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_paint_brush" android:tint="#ffffffff" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@+id/imgClose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_close_brush" android:tint="#ffffffff" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

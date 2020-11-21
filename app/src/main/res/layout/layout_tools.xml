@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/main" android:background="#417a7a7a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_color" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tools" />
+            <ImageView android:id="@+id/imv_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_close_grey" android:tint="@color/text_color" android:layout_alignParentRight="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_color2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/screenshots" android:drawableLeft="@drawable/ic_camera_tools" android:drawablePadding="16.0dip" android:layout_below="@id/tv_title" />
+            <Switch android:id="@+id/sw_capture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:checked="true" android:layout_below="@id/tv_title" android:layout_alignParentRight="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_color2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/camera" android:drawablePadding="16.0dip" android:layout_below="@id/sw_capture" android:drawableStart="@drawable/ic_record_tools" />
+            <Switch android:id="@+id/sw_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/sw_capture" android:layout_alignParentRight="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_color2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/brush" android:drawableLeft="@drawable/ic_brush" android:drawablePadding="16.0dip" android:layout_below="@id/sw_camera" />
+            <Switch android:id="@+id/sw_brush" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/sw_camera" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

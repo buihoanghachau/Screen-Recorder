@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/layout" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#fffafafa" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:gravity="center" android:id="@+id/record" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/imv_record" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_record_noti" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/record_screen" android:singleLine="true" android:layout_below="@id/imv_record" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/capture" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/imv_capture" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_camera" android:tint="#ffe53935" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/screenshots" android:singleLine="true" android:layout_below="@id/imv_capture" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/tools" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/imv_cc" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/ic_tools_app" android:tint="#ffe53935" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tools" android:singleLine="true" android:layout_below="@id/imv_cc" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/notification_layout_main_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/imv_home" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_home" android:tint="#ffe53935" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/home" android:singleLine="true" android:layout_below="@id/imv_home" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/close" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/imv_exit" android:background="@drawable/ic_record_noti" android:padding="2.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_close_grey" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/exit" android:singleLine="true" android:layout_below="@id/imv_exit" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
